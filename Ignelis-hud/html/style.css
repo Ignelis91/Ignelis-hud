@@ -1,0 +1,383 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url("fondo.png");
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.box{
+  background: rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  height: 30px;
+  width: 160px;
+  border-radius: 5%;
+  position: absolute;
+  top: 118px;
+  right: 16px;
+}
+.boxw{
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  height: 27px;
+  width: 36px;
+  border-radius: 5%;
+  position: absolute;
+  top: 117px;
+  right: 145px;
+}
+
+.box2{
+  background: rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  height: 30px;
+  width: 130px;
+  border-radius: 5%;
+  position: absolute;
+  top: 154px;
+  right: 16px;
+}
+.boxw2{
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  height: 27px;
+  width: 36px;
+  border-radius: 5%;
+  position: absolute;
+  top: 154px;
+  right: 145px;
+}
+.box3{
+  background: rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  height: 30px;
+  width: 130px;
+  border-radius: 5%;
+  position: absolute;
+  top: 190px;
+  right: 16px;
+}
+.boxw3{
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  height: 27px;
+  width: 36px;
+  border-radius: 5%;
+  position: absolute;
+  top: 190px;
+  right: 145px;
+}
+
+.boxw4{
+  background: rgb(184, 0, 153);
+  height: 35px;
+  width: 5px;
+  border-radius: 5%;
+  position: absolute;
+  top: 228px;
+  right: 175px;
+}
+
+.box5{
+  background: rgb(184, 0, 153);
+  height: 60px;
+  width: 5px;
+  border-radius: 5%;
+  position: absolute;
+  bottom: 2vh;
+  left: 16vw;
+}
+
+.box8 {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  height: 35px;
+  width: 162px;
+  border-radius: 5%;
+  position: absolute;
+  top: 228px;
+  right: 17px;
+}
+
+
+
+.container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ml-2 {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  padding-top: 7px;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  height: 24px;
+  width: 70px;
+  border-radius: 5%;
+  position: absolute;
+  top: 270px;
+  right: 90px;
+}
+
+.box9 {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  height: 30px;
+  width: 69px;
+  border-radius: 5%;
+  position: absolute;
+  top: 270px;
+  right: 90px;
+}
+
+.ldBar-label {
+  display: none;
+}
+
+
+.supiz {
+  float: left;
+}
+
+.box6 {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  height: 30px;
+  width: 70px;
+  border-radius: 5%;
+  position: absolute;
+  top: 270px;
+  right: 16px;
+}
+
+.idplayer {
+  font-size: 1vw;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 3px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 70px;
+  border-radius: 5%;
+  position: absolute;
+  top: 252px;
+  right: -7px;
+}
+
+.supde,
+.logo {
+  float: left;
+}
+
+.fecha {
+  position: absolute;
+  top: 1vw;
+  right: 1.2vw;
+}
+.Laikas {
+  font-weight: 1000;
+  color: #fff;
+  padding-left: 0.21vw;
+  font-size: 1.5vw;
+  position: absolute;
+  bottom: -1020px;
+  left: -1550px;
+}
+.laikas {
+  font-weight: 500;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1vw;
+  font-style: italic;
+  position: absolute;
+  bottom: -1040px;
+  left: -1550px;
+}
+
+.infoplayer {
+  position: absolute;
+  top: 3.5vw;
+  right: 1.2vw;
+  text-align: right;
+}
+
+.infojob {
+  position: absolute;
+  top: 3.5vw;
+  right: 1.2vw;
+  text-align: right;
+}
+.darbas {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  padding-top: 4px;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  height: 30px;
+  width: 160px;
+  border-radius: 5%;
+  position: absolute;
+  top: 161px;
+  right: -5px;
+  
+}
+.rankas {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  padding-top: 19px;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 0.6vw;
+  text-transform: uppercase;
+  overflow: hidden;
+  opacity: 0.8;
+  height: 15px;
+  width: 160px;
+  border-radius: 5%;
+  position: absolute;
+  top: 161px;
+  right: -6px;
+}
+.pinigai {
+  font-weight: 1000;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  top: 55px;
+  right: -1px;
+}
+.bankas {
+  font-weight: 1000;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  top: 92px;
+  right: -1px;
+}
+.nesvarus {
+  font-weight: 1000;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  top: 128px;
+  right: -1px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .infoplayer {
+    top: 5.5vw;
+  }
+}
+@media only screen and (max-width: 1600) {
+  .infoplayer {
+    top: 4.5vw;
+  }
+}
+.mic {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2vw;
+  transition: .5s;
+}
+
+.maistas {
+  position: absolute;
+  bottom: 8.5vh;
+  left: 16vw;
+}
+
+.box4 {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  height: 60px;
+  width: 170px;
+  border-radius: 5%;
+  position: absolute;
+  bottom: 2vh;
+  left: 16vw;
+}
+
+.food,
+.water {
+  float: left;
+  position: relative;
+}
+.food img {
+  position: absolute;
+  left: 1.56vw;
+  bottom: 2vh;
+  width: 1.42vw;
+}
+.water img {
+  position: absolute;
+  left: 1.56vw;
+  bottom: 1.7vh;
+  width: 1.42vw;
+}
+
+.ldBar path.mainline {
+    stroke-linecap: round;
+    transition: 0.5s;
+}
+
+.ldBar.come path.mainline {
+  stroke-width: 10;
+  stroke: #ffffff;
+  stroke-linecap: round;
+}
+.ldBar.come path.baseline {
+  stroke-width: 10;
+  stroke: #f1f2f373;
+  stroke-linecap: round;
+}
+.ldBar.toma path.mainline {
+  stroke-width: 10;
+  stroke: #ffffff;
+  stroke-linecap: round;
+}
+.ldBar.toma path.baseline {
+  stroke-width: 10;
+  stroke: #f1f2f373;
+  stroke-linecap: round;
+}
+
+.ldBar path.baseline {
+    stroke-width: 2.5;
+    stroke: #f1f2f373;
+    stroke-linecap: round;
+}

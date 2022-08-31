@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="app.js"></script>
+	<script>
+        showTime();
+
+        function showTime() {
+            myDate = new Date();
+            hours = myDate.getHours();
+            minutes = myDate.getMinutes();
+            seconds = myDate.getSeconds();
+            if (hours < 10) hours = 0 + hours;
+
+            if (minutes < 10) minutes = "0" + minutes;
+
+
+            $(".Laikas").text(hours + ":" + minutes);
+            setTimeout("showTime()", 3000);
+        }
+    </script>
+
+  <title>Ignelis Hud</title>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="box"></div>
+        <div class="boxw"><i class="fa-solid fa-money-bill fa-lg"></i></div>
+        <div class="box2"></div>
+        <div class="boxw2"><i class="fa-solid fa-building-columns fa-lg"></i> </div>
+        <div class="box3"></div>
+        <div class="boxw3"><i class="fa-solid fa-sack-dollar fa-lg"></i> </div>
+        <div class="box4"></div>
+        <div class="box6"></div>
+        <div class="box8"></div>
+        <div class="box9"></div>
+    </div>
+    <div class ="bugfix">
+        <div class="box5"></div>
+        <div class="boxw4"></div>
+    </div>
+
+    <div class="infojob">
+        <div class="darbas job">Policininkas</div>
+        <div class="rankas grado">Generalinis</div>
+    </div>
+
+    <div class="playerc">
+        <div class="ml-2"><i class="fa-solid fa-users"></i><span id="plcount">32/64</span></div>
+        </div>
+
+    <div class="fecha">
+        <div class="supiz">
+            <div class="idplayer"><i class="fa-solid fa-user"></i> <span class="userid">109</span></div>             
+        </div>
+
+        <div class="supde">
+            <div class="hora">
+            <span class="Laikas"></span>
+            </div>
+            <div class="laikas">
+                <script>
+                    var f = new Date();
+                    document.write(f.getDate() + "." + (f.getMonth() +1) + "." + f.getFullYear());
+                </script>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="infoplayer">
+        <div class="pinigai"> <span class="money">1.000.000</span></div>
+        <div class="bankas"><span class="bankmoney">1.000.000</span></div>
+        <div class="nesvarus"><span class="dirtymoney">1.000.000</span></div>
+    </div>
+
+    <div class="maistas">
+        <div class="food">
+            <div  data-preset="circle"  class="ldBar come label-center" id="food" data-value="0" style="width:4.5vw;height:6.5vh"></div>
+            
+            <img src="imgs/maistas.png">
+        </div>
+        <div class="water">
+            <div  data-preset="circle"  class="ldBar toma label-center" id="water" data-value="0" style="width:4.5vw;height:6.5vh"></div>
+            <img src="imgs/vanduo.png">
+        </div>
+
+        
+    </div>
+    
+    
+		<link rel="stylesheet" type="text/css" href="dist/loading-bar.css"/>
+        <script type="text/javascript" src="dist/loading-bar.js"></script>
+</body>
+</html>
