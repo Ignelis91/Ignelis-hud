@@ -2,7 +2,7 @@ Config = {}
 
 Config.UseMPH = false -- If true it will use mph, if false it will use km/h
 
-Config.StatusUpdateInterval = 2500 -- Time it takes for status to update (lowering this value adds ms)
+Config.StatusUpdateInterval = 200 -- Time it takes for status to update (lowering this value adds ms)
 
 function GetFuelOfVehicle(vehicle)
    return GetVehicleFuelLevel(vehicle)
